@@ -17,8 +17,8 @@ import tempfile
 JAKARTA_TZ = pytz.timezone('Asia/Jakarta')
 
 # === CONFIG ===
-EMAIL = os.getenv("KNACK_EMAIL", "brian.saputra@javamifi.com")
-PASSWORD = os.getenv("KNACK_PASSWORD", "Tikuskantor12345#")
+EMAIL = os.getenv("KNACK_EMAIL", "")
+PASSWORD = os.getenv("KNACK_PASSWORD", "")
 LOGIN_URL = "https://jvm.knack.com/app#login"
 TARGET_URL = "https://jvm.knack.com/app#main-form2"
 GOOGLE_CREDS_PATH = os.getenv("GOOGLE_CREDS_PATH", "workersm.json")
